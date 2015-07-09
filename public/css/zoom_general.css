@@ -1,0 +1,82 @@
+@import url('reset.css');
+.zt-container a{
+	color:#000;
+	text-decoration:none;
+}
+.zt-container .clr{
+	clear:both;
+}
+.zt-container h1, h5{
+	margin:15px;
+	font-size:34px;
+	color:#000;
+	font-family: 'Ultra', sans-serif;
+	text-shadow:1px 1px 1px #fff;
+	text-align:center;
+}
+.zt-container h1 span,.zt-container h5{
+	font-size:18px;
+	color:#c08763;
+}
+/* Header Style */
+.zt-container .header{
+	height:25px;
+	line-height:24px;
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	text-transform:uppercase;
+	z-index:4;
+}
+.zt-container .header a{
+	padding:5px 10px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+	text-align:right;
+}
+.zt-container .header a:hover{
+	color:#fff;
+}
+.zt-container .header a span{
+	font-weight:bold;
+}
+.zt-container .header span.right_ab{
+	position:absolute;
+	right:4px;
+}
+
+.zt-container .more ul{
+	text-transform:uppercase;
+	font-size:13px;
+	padding:20px 0px 30px 20px;
+	height:30px;
+	clear:both;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	width:450px;
+	margin:0 auto;
+}
+.zt-container .more ul li{
+	float:left;
+	margin:0px 2px;
+}
+.zt-container .more ul li.selected a,
+.zt-container .more ul li.selected a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.zt-container .more ul li a{
+	text-shadow:1px 1px 1px #fff;
+	color:#555;
+	background:#f7f7f7;
+	padding:3px 6px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.zt-container .more ul li a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}

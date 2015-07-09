@@ -1,0 +1,37 @@
+/* CSS reset */
+.zt-container div,.zt-container dl,.zt-container dt,.zt-container dd,.zt-container ul,.zt-container ol,.zt-container li,.zt-container h1,.zt-container h2,.zt-container h3,.zt-container h4,.zt-container h5,.zt-container h6,.zt-container pre,.zt-container form,.zt-container fieldset,.zt-container input,.zt-container textarea,.zt-container p,.zt-container blockquote,.zt-container th,.zt-container td { 
+	margin:0;
+	padding:0;
+}
+.zt-container table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.zt-container fieldset,.zt-container img { 
+	border:0;
+}
+.zt-container input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+.zt-container address,.zt-container caption,.zt-container cite,.zt-container code,.zt-container dfn,.zt-container th,.zt-container var {
+	font-style:normal;
+	font-weight:normal;
+}
+.zt-container ol,.zt-container ul {
+	list-style:none;
+}
+.zt-container caption,.zt-container th {
+	text-align:left;
+}
+.zt-container h1,.zt-container h2,.zt-container h3,.zt-container h4,.zt-container h5,.zt-container h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+.zt-container q:before,.zt-container q:after {
+	content:'';
+}
+.zt-container abbr,.zt-container acronym { border:0;
+}

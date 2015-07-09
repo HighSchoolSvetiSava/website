@@ -1,0 +1,289 @@
+.relative-menu {
+	z-index: 2;
+}
+
+.relative-menu .icon-team, .relative-menu .icon-blog, .relative-menu .icon-home, .relative-menu .icon-portfolio, .relative-menu .icon-services, .relative-menu .icon-contact, .relative-menu .icon-menu {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.relative-menu .icon-team:before {
+	content: "\e000";
+}
+
+.relative-menu .icon-blog:before {
+	content: "\e001";
+}
+
+.relative-menu .icon-home:before {
+	content: "\e002";
+}
+
+.relative-menu .icon-portfolio:before {
+	content: "\e003";
+}
+
+.relative-menu .icon-services:before {
+	content: "\e004";
+}
+
+.relative-menu .icon-contact:before {
+	content: "\e005";
+}
+
+.relative-menu .icon-menu:before {
+	content: "\f0c9";
+}
+
+.relative-menu a, .relative-menu li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Global CSS that are applied for all screen sizes */
+
+.relative-menu .nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+
+.relative-menu .nav li span {
+	display: block;
+}
+
+.relative-menu .nav ul li {
+	padding: 0px;
+}
+
+.relative-menu .nav a {
+	display: block;
+	color: rgba(249, 249, 249, .9);
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s;
+	-moz-transition: color .5s, background .5s;
+	-o-transition: color .5s, background .5s;
+	-ms-transition: color .5s, background .5s;
+	transition: color .5s, background .5s;
+}
+
+.relative-menu .nav i{
+	/* Make the font smoother for Chrome */
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* Remove the blue Webkit background when element is tapped */
+
+.relative-menu a, .relative-menu button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+.relative-menu .nav ul:hover a {
+	color: rgba(249, 249, 249, .5);
+}
+
+.relative-menu .nav ul li:hover a {
+	color: rgba(249, 249, 249, 0.99);
+}
+
+/* Adding some background color to the different menu items */
+
+.relative-menu .nav li:nth-child(6n+1) {
+	background: rgb(208, 101, 3);
+}
+
+.relative-menu .nav li:nth-child(6n+2) {
+	background: rgb(233, 147, 26);
+}
+
+.relative-menu .nav li:nth-child(6n+3) {
+	background: rgb(22, 145, 190);
+}
+
+.relative-menu .nav li:nth-child(6n+4) {
+	background: rgb(22, 107, 162);
+}
+
+.relative-menu .nav li:nth-child(6n+5) {
+	background: rgb(27, 54, 71);
+}
+
+.relative-menu .nav li:nth-child(6n+6) {
+	background: rgb(21, 40, 54);
+}
+
+.relative-menu .nav li {
+	float: left;
+	text-align: center;
+	-webkit-transition: border .5s;
+	-moz-transition: border .5s;
+	-o-transition: border .5s;
+	-ms-transition: border .5s;
+	transition: border .5s;
+}
+
+.relative-menu .nav a {
+	display: block;
+	width: auto;
+}
+
+.relative-menu .nav li a {
+	-webkit-transition: border 0.5s; /* Safari */
+	-moz-transition: border 0.5s;
+	-ms-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+}
+
+/* hover, focused and active effects that add a little colored border to the different items */
+.relative-menu .nav li:nth-child(6n+1):hover,
+.relative-menu .nav li:nth-child(6n+1):active,
+.relative-menu .nav li:nth-child(6n+1):focus {
+	border-bottom: 4px solid rgb(174, 78, 1);
+}
+
+.relative-menu .nav li:nth-child(6n+2):hover,
+.relative-menu .nav li:nth-child(6n+2):active,
+.relative-menu .nav li:nth-child(6n+2):focus {
+	border-bottom: 4px solid rgb(191, 117, 20);
+}
+
+.relative-menu .nav li:nth-child(6n+3):hover,
+.relative-menu .nav li:nth-child(6n+3):active,
+.relative-menu .nav li:nth-child(6n+3):focus {
+	border-bottom: 4px solid rgb(12, 110, 149);
+}
+
+.relative-menu .nav li:nth-child(6n+4):hover,
+.relative-menu .nav li:nth-child(6n+4):active,
+.relative-menu .nav li:nth-child(6n+4):focus {
+	border-bottom: 4px solid rgb(10, 75, 117);
+}
+
+.relative-menu .nav li:nth-child(6n+5):hover,
+.relative-menu .nav li:nth-child(6n+5):active,
+.relative-menu .nav li:nth-child(6n+5):focus {
+	border-bottom: 4px solid rgb(16, 34, 44);
+}
+
+.relative-menu .nav li:nth-child(6n+6):hover,
+.relative-menu .nav li:nth-child(6n+6):active,
+.relative-menu .nav li:nth-child(6n+6):focus {
+	border-bottom: 4px solid rgb(9, 18, 25);
+}
+
+.relative-menu .nav li {
+	border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+
+/* Placing the icon */
+
+.relative-menu .icon {
+	padding-top: 0.4em;
+}
+
+.relative-menu .icon + span {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+}
+
+/* Animating the height of the element*/
+.relative-menu .nav a {
+	height: 5.5em;
+}
+
+.relative-menu .nav li:hover a ,
+.relative-menu .nav li:active a ,
+.relative-menu .nav li:focus a {
+	position: relative;
+}	
+
+.relative-menu .nav li:hover a .icon + span {
+	margin-top: 0.3em;
+	-webkit-transition: margin .5s;
+	-moz-transition: margin .5s;
+	-o-transition: margin .5s;
+	-ms-transition: margin .5s;
+	transition: margin .5s;
+}
+
+/* Positioning the icons and preparing for the animation*/
+.relative-menu .nav i {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0.4em;
+	border-radius: 50%;
+	font-size: 1.8em;
+	box-shadow: 0 0 0 30px transparent;
+	background: rgba(255,255,255,0.1);
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: box-shadow .6s ease-in-out;
+	-moz-transition: box-shadow .6s ease-in-out;
+	-o-transition: box-shadow .6s ease-in-out;
+	-ms-transition: box-shadow .6s ease-in-out;
+	transition: box-shadow .6s ease-in-out;
+}	
+
+/* Animate the box-shadow to create the effect */
+.relative-menu .nav li:hover a i,
+.relative-menu .nav li:active a i,
+.relative-menu .nav li:focus a i {		
+	box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .4s ease-in-out;
+	-moz-transition: box-shadow .4s ease-in-out;
+	-o-transition: box-shadow .4s ease-in-out;
+	-ms-transition: box-shadow .4s ease-in-out;
+	transition: box-shadow .4s ease-in-out;
+}
+
+@media (max-width: 991px) {
+	.relative-menu .nav a {
+		height: 4em;
+	}
+
+	.relative-menu .icon + span {
+		margin-top: 1.4em;
+	}
+
+	.relative-menu .nav li:hover a .icon + span {
+		margin-top: 1.4em;
+		-webkit-animation: rotateOnceAnimation 0.5s 1 ease-in-out;
+		-moz-animation: rotateOnceAnimation 0.5s 1 ease-in-out;
+		-o-animation: rotateOnceAnimation 0.5s 1 ease-in-out;
+	}
+
+	@-webkit-keyframes rotateOnceAnimation {
+	from { -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+	to { -webkit-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
+	}
+	@-moz-keyframes rotateOnceAnimation {
+	from { -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+	to { -moz-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
+	}
+	@-o-keyframes rotateOnceAnimation {
+	from { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+	to { -o-transform: rotate(360deg) scale(1) skew(0deg) translate(0px); }
+	}
+}

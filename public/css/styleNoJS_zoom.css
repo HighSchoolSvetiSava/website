@@ -1,0 +1,15 @@
+.zt-container{
+	width:100%;
+	height:350px;
+	position:relative;
+	overflow:visible;
+}
+.zt-container img{
+	position:relative;
+}
+.zt-container .zt-tag{
+	display:none;
+}
+.zt-container img.zt-current{
+	display:block;
+}
